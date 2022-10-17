@@ -26,6 +26,7 @@ function UsernameForm({onSubmitUsername}) {
         <input type="text" />
       </div>
       <button type="submit">Submit</button>
+      <button type="button">Cancel</button>
     </form>
   )
 }
