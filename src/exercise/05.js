@@ -21,11 +21,11 @@ const extraLargeBox = <div>extra large box</div>
 
 function App() {
   return (
-    <div>
-      {smallBox}
-      {mediumBox}
-      {largeBox}
-      {extraLargeBox}
+    <div className="box">
+      <div className="box box--small">{smallBox}</div>
+      <div className="box box--medium">{mediumBox}</div>
+      <div className="box box--large">{largeBox}</div>
+      <div className="box box--extra-large">{extraLargeBox}</div>
     </div>
   )
 }
